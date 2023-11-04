@@ -10,8 +10,8 @@ import mysql.connector
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 import mysql.connector
-bot = "6775304090:AAEKaBjlKWjwthonNafb0S_o5-Zxza8lU0Q"
-chat_id = "-4019342923"
+bot = ""
+chat_id = ""
 global_update = None
 # Create a database connection
 db = mysql.connector.connect(
